@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-23T12:29:56 IST" name="OrgTest" finished-at="2025-04-23T12:33:43 IST" duration-ms="227367">
+    <groups>
+    </groups>
+    <test started-at="2025-04-23T12:29:56 IST" name="TestOrg" finished-at="2025-04-23T12:33:43 IST" duration-ms="227367">
+      <class name="collation.Organization.CRUDOPERATION">
+        <test-method is-config="true" signature="lunchchrome()[pri:0, instance:collation.Organization.CRUDOPERATION@47eaca72]" started-at="2025-04-23T12:29:56 IST" name="lunchchrome" finished-at="2025-04-23T12:30:04 IST" duration-ms="8371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchchrome -->
+        <test-method signature="CRUDOPERATIONcreate()[pri:0, instance:collation.Organization.CRUDOPERATION@47eaca72]" started-at="2025-04-23T12:30:04 IST" name="CRUDOPERATIONcreate" finished-at="2025-04-23T12:33:43 IST" duration-ms="218737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRUDOPERATIONcreate -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:collation.Organization.CRUDOPERATION@47eaca72]" started-at="2025-04-23T12:33:43 IST" name="exit" finished-at="2025-04-23T12:33:43 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- collation.Organization.CRUDOPERATION -->
+    </test> <!-- TestOrg -->
+  </suite> <!-- OrgTest -->
+</testng-results>

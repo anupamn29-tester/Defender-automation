@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Individuals]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestIndividuals(failed)">
+    <classes>
+      <class name="collation.Individual.CRUDoperation">
+        <methods>
+          <include name="exit"/>
+          <include name="CRUDoperations"/>
+          <include name="lunchchrome"/>
+        </methods>
+      </class> <!-- collation.Individual.CRUDoperation -->
+    </classes>
+  </test> <!-- TestIndividuals(failed) -->
+</suite> <!-- Failed suite [Individuals] -->
