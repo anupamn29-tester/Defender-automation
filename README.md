@@ -1,3 +1,47 @@
+**Defender Automation Framework**
+This project is a Selenium-based Automation Testing Framework for the **Defender** web application. It is built using Java, Maven, and TestNG, following the **Page Object Model (POM)** design pattern.
+
+🧩 Project Structure
+```
+DefenderAutomation/
+└── Defender/
+    ├── pom.xml                     # Maven project file
+    ├── src/
+    │   └── main/
+    │       └── java/
+    │           ├── Utilities/      # Utility classes for query handling
+    │           └── collation/
+    │               └── Defender/   # Main framework logic
+    │                   ├── BaseClassSetup.java
+    │                   ├── DropDown.java
+    │                   ├── DynamicSelectDropdown.java
+    │                   └── locator/
+    │                       └── Event/ and Anonymous/ # Page locators
+    ├── .mvn/ and .settings/        # Maven and IDE settings
+    └── screenshots/                # Screenshots of test results
+```
+
+🚀 Features
+- Page Object Model (POM) design
+- Maven-based build
+- TestNG integration
+- Custom dropdown handlers
+- Dynamic locators and reusable methods
+- Organized locator packages by module
+
+⚙️ Setup Instructions
+1. **Install Dependencies**  
+   ```bash
+   mvn clean install
+   ```
+
+2. **Run Tests**  
+   Use TestNG to run test suites from the Test folder (not included in shared files). Example:
+   ```bash
+   mvn test
+   ```
+
+
 🧱 BaseClassSetup – Selenium WebDriver Initialization
 `BaseClassSetup` is a foundational Java class for Selenium WebDriver automation. It provides reusable setup and configuration functionality used across test classes in your automation framework.
 
